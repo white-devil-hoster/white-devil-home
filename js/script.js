@@ -103,6 +103,7 @@ inputBxs.forEach(box => {shalaniBorder(box)});
 toggle.addEventListener("click", shalaniMenu);
 window.addEventListener("scroll", shalaniscrollTop);
 shalaniType();
+shalaniCheck();
 shalaniMenuItems();
 shalaniScrollSection();
 
