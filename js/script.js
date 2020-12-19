@@ -37,7 +37,6 @@ const shalaniType = shalani => {
 	})();
 }
 
-	 alert(window.innerWidth);
 // scrollTop button display
 const shalaniscrollTop = shalani => {
 	let scrollValue = window.scrollY;
