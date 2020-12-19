@@ -55,6 +55,14 @@ const shalaniscrollTop = shalani => {
 	});
 }
 
+const shalaniCheck = shalani => {
+    if (window.innerWidth >= 800) {
+		let s = skrollr.init();
+    } else {
+		let s = null;
+    }
+}
+
 // menu bar classList
 const shalaniMenu = shalani => {
 	menuBx.classList.toggle('shalani');
