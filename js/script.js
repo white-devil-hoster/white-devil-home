@@ -55,8 +55,7 @@ const shalaniscrollTop = shalani => {
 	});
 }
 
-alert(window.innerWidth);
-
+// width check 
 const shalaniCheck = shalani => {
     if (window.innerWidth >= 800) {
 		let s = skrollr.init();
