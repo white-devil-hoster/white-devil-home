@@ -21,7 +21,7 @@ const shalaniType = shalani => {
 	let textCount = 0;
 	let letterCount = 0;
 	let letter;
-	(function shalaniTypingTiming(shalani) {{
+	(function shalaniTypingTiming(shalani) {
 		text = bannerText[textCount];
 		letter = text.slice(0, ++letterCount);
 		bannerTextElem.textContent = letter;
@@ -54,6 +54,8 @@ const shalaniscrollTop = shalani => {
 		})
 	});
 }
+
+alert(window.innerWidth);
 
 const shalaniCheck = shalani => {
     if (window.innerWidth >= 800) {
