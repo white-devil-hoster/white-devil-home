@@ -1,0 +1,20 @@
+@keyframes shalaniCursor {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@keyframes shalaniBorder {
+	0%, 100% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 50% 0;
+}
+/*
+developered by : white devil @ devilshalani
+github https://github.com/Devilshalani/
+youtube drvil devilshalani 
+*/
